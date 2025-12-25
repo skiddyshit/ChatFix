@@ -61,7 +61,7 @@ syncVisibility()
 
 print("ChatFix initialized. Use ChatFix:Exit() to stop.")
 
-local TeleportCheck = false -- infinite yield queueteleport
+local TeleportCheck = false
 
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if (not TeleportCheck) and queueteleport then
