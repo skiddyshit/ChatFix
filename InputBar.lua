@@ -66,6 +66,6 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
-		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/skiddyshit/ChatFix/refs/heads/main/InputBar.lua'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/pl4xi/ChatFix/refs/heads/main/InputBar.lua'))()")
 	end
 end)
